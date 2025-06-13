@@ -681,7 +681,7 @@ header .container {
 }
 .content__table td {
   padding: 12px;
-  border: 1px solid rgb(245, 220, 174);
+  border: 1px solid rgb(60, 52, 172);
   text-align: left;
   vertical-align: top;
 }
@@ -691,8 +691,11 @@ header .container {
 }
 
 .table--style tr:first-child td {
-  background: linear-gradient(180deg, rgb(219, 255, 0) 0%, rgb(180, 197, 0) 100%);
-  color: rgb(3, 10, 10);
+  text-align: center;
+  font-weight: 900;
+}
+.table--style td:first-child {
+  font-weight: 900;
 }
 
 footer {
